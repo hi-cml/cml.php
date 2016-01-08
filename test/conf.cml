@@ -1,0 +1,23 @@
+@foo
+    # one=The Foo!
+    The Foo!
+@person{}
+    # name=Kerem, ..
+    name        = Kerem
+    city        = Istanbul
+@loves{}
+    # loves=Zend, ...
+    php         = Zend
+    drink       = Water, Tequila
+    smoke       = Marlboro, Adıyaman Tabocco, Peace Pipe
+@hates{}
+    # hates=Laravel
+    php         = Laravel
+    other       = Nothing
+@skills[]
+    php         = 5
+    js          = 5
+    go          = 2.5
+    -
+    # new index after "-"
+    # ..
